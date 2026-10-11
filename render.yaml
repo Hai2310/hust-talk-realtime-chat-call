@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: hustmess-bunny-edition
+    runtime: node
+    plan: free
+    buildCommand: >-
+      cat hustmess-project.part-* > /tmp/hustmess-project.tar.gz &&
+      tar -xzf /tmp/hustmess-project.tar.gz &&
+      npm install --legacy-peer-deps &&
+      npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
