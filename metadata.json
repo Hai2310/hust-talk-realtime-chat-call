@@ -1,0 +1,10 @@
+{
+  "name": "HustMess",
+  "description": "Nền tảng giao tiếp thời gian thực sinh viên Bách khoa Hà Nội (HUST) - Nhắn tin, gọi thoại & video WebRTC, nhóm học tập.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

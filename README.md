@@ -1,9 +1,20 @@
-# HustMess — Bunny Edition
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Realtime Bunny chat app with image/sticker sharing and iOS PWA support.
+# Run and deploy your AI Studio app
 
-## Deploy miễn phí
+This contains everything you need to run your app locally.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Hai2310/hust-talk-realtime-chat-call)
+View your app in AI Studio: https://ai.studio/apps/41f91cc7-d640-44c2-8147-4a32fde81af9
 
-Bấm nút trên, đăng nhập Render miễn phí, chọn **Apply** để tạo Web Service. Render sẽ build và cấp một link onrender.com; mở link đó bằng Safari iPhone rồi chọn **Chia sẻ → Thêm vào Màn hình chính**.
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
